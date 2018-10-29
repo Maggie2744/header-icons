@@ -32,6 +32,8 @@ img {
 
 .nav {
   text-decoration: none;
+  margin: 0;
+  font-size: 1.125rem;
 }
 
 .links {
@@ -40,9 +42,12 @@ img {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
+  padding: ;
 }
