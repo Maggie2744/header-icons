@@ -17,33 +17,17 @@ img {
   width: 40px;
 }
 
+.header {
+  background-color: #d05c2e;
+  color: #fff;
+}
+
 .title {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  font-size: 2rem;
-  background-color: #d05c2e;
-  color: #fff;
+  padding: 0;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-around;
-  background-color: #d05c2e;
-  font-size: 1.125rem;
-}
+.nav {}
 
-.links ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: stretch;
-}
-
-.links a {
-  color: #fff;
-  text-decoration: none;
-  border: 3px solid #a63f38;
-}
+.links {}
