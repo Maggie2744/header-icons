@@ -44,10 +44,15 @@ section div {
   color: #fff;
   text-align: center;
   border: 3px solid #a63f38;
+  padding: .4rem 0;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   text-align: center;
+}
+
+div:hover {
+  background-color: #a63f38;
 }
