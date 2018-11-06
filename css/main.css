@@ -31,24 +31,23 @@ img {
 }
 
 .nav {
+  display: flex;
+  justify-content: space-around;
   text-decoration: none;
   margin: 0;
   font-size: 1.125rem;
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  padding: 0;
+section div {
+  width: 33.3333%;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border: 3px solid #a63f38;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   text-align: center;
-  border: 3px solid #a63f38;
-  padding: .4rem 0;
 }
